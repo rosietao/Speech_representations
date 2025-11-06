@@ -1,0 +1,26 @@
+# pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+# ========== Core Framework ==========
+torch==2.3.1
+torchaudio==2.3.1
+transformers==4.43.0
+accelerate==0.32.1
+datasets==2.20.0
+modelscope==1.15.1
+
+# ========== Sparse Autoencoder ==========
+numpy==1.26.4
+scikit-learn==1.5.2
+umap-learn==0.5.6
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# ========== Audio Processing ==========
+librosa==0.10.2
+soundfile==0.12.1
+praat-parselmouth==0.4.3
+
+# ========== Alignment / Analysis ==========
+pyannote.audio==3.1.1
+textgrid==1.6.1
+tqdm==4.66.4
